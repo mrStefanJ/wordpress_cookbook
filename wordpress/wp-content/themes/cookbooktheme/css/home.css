@@ -1,0 +1,294 @@
+.has-text-align-center{
+    text-align: center;
+    color:#F29F3F;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.feat-image
+{
+    background-image: url("http://localhost:8080/wordpress/wp-content/uploads/2020/06/header.png"); 
+    width: 100%;
+    height: 760px;
+    overflow: visible;
+}
+
+.feat-text{
+    position: absolute;
+    top: 30%;
+    width: 40%;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.feat-text-second{
+    position: absolute;
+    top: 70%;
+    text-align: left;
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.title-recipes
+{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #F29F3F;    
+    padding-top: 30px;
+}
+
+.title-recipes:before {
+    content: '';
+    display: flex;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    top: 124%;
+    left: 46%;
+    margin-right: 40%;
+    transform: translate(50%, 0%);
+    border-bottom: 3px solid #28C67D;
+}
+
+.title-home-blog{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #F29F3F;    
+    padding-top: 30px;
+}
+
+.title-home-blog:before{
+    content: '';
+    display: flex;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    top: 309%;
+    left: 47%;
+    margin-right: 40%;
+    transform: translate(50%, 0%);
+    border-bottom: 3px solid #28C67D;
+}
+
+.title-lorem
+{
+    text-align: left;
+    font-size: 36px;
+    font-weight: bold;
+    color: #F29F3F;
+}
+
+.title-lorem:before
+{
+    content: '';
+    display: flex;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    top: 13%;
+    left: 0%;
+    margin-right: 40%;
+    transform: translate(50%, 0%);
+    border-bottom: 3px solid #28C67D;
+}
+
+.lorem-text{
+    color:#567084;
+}
+
+.feat-background {
+    background-image: url("http://localhost:8080/wordpress/wp-content/uploads/2020/06/16464.png"); 
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+.feat-position-image
+{
+    margin-left: -170px;
+    width: 100%;
+}
+
+.feat-position-text
+{
+    margin-top: 35px;
+}
+
+.card-margin{
+    padding: 30px 0px 40px 0px;
+}
+
+.card-text-pos{
+    position: absolute;
+    left: 8%;
+    bottom: 5%;
+    color: #FFFFFF;
+}
+.cake-text-second{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Nunito';
+}
+.cake-author-second{
+    font-size: 13px;
+    font-family: 'Nunito';
+}
+
+.card-style{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 15px 0 10px 0;
+}
+
+.card-image-wrapper{
+    overflow: hidden;
+    display: block;
+    
+    position: relative;
+    padding-bottom: calc((3 / 2) * 42%);
+}
+
+.card-image{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.card-img-top{
+    flex-shrink: 0;
+    width: 100%;
+    height: 70%;
+}
+
+.card-img-cake{
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card-text-wrapper 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100%;
+}
+
+.card-text
+{
+    text-align: left;
+    color: #F29F3F;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.card-author 
+{
+    text-align: left;
+    color: #28C67D;
+    font-size: 13px;
+}
+
+
+
+@media (max-width: 992px) 
+{ 
+    .feat-text{
+        top: 40%;
+        width: 60%;
+        font-size: 36px;
+    }
+    
+    .feat-text-second{
+        top: 70%;
+        font-size: 22px;
+    }
+
+    .title-recipes:before{
+        top:125%;
+        left:42%;
+    }
+
+    .title-home-blog:before{
+        top: 328%;
+        left: 45%;
+    }
+
+    .title-lorem:before{
+        top: 13%;
+        left: 0%;
+    }
+
+}
+@media (max-width: 768px)
+{
+    .feat-text{
+        top: 30%;
+        width: 60%;
+        font-size: 32px;
+    }
+    
+    .feat-text-second{
+        top: 70%;
+        font-size: 22px;
+    }
+
+    .title-recipes:before{
+        top: 125%;
+        left: 40%;
+    }
+
+    .title-home-blog:before{
+        top: 670%;
+        left: 43%;
+    }
+
+    .title-lorem:before{
+        top: 16%;
+        left: 0%;
+    }
+}
+@media all and (max-width: 576px) 
+{ 
+    .feat-text{
+        top: 30%;
+        width: 60%;
+        font-size: 30px;
+    }
+    
+    .feat-text-second{
+        top: 70%;
+        font-size: 18px;
+    }
+
+    .card-style{
+        padding: 10px 0px 20px 0px;
+    }
+
+    .title-recipes:before{
+        top: 126%;
+        left: 32%;
+    }
+
+    .title-home-blog:before{
+        top: 629%;
+        left: 35%;
+    }
+
+    .title-lorem::before{
+        top: 13%;
+        left: 0%;
+    }
+    
+}
